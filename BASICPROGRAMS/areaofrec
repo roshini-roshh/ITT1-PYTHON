@@ -1,0 +1,14 @@
+a=int(input("Enter the 1st element:"))
+b=int(input("Enter the 2nd element:"))
+if(a>=0 and b<=1000):
+   c=a+b
+   print("Sum is:",c)
+else:
+   print("Enter the element according to the constraints: ->a should greaterthan or equal to zero and b less than or equal to 1000")
+[24bcs023@mepcolinux py4]$cat 2nd.py
+l=float(input("Enter the length:"))
+b=float(input("Enter the breadh:"))
+if(l>=1 and b<=100):
+   print("Area is:",l*b)
+else:
+   print("Enter the element according to the sonstraints")
