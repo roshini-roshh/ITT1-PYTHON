@@ -1,0 +1,20 @@
+try:
+    # 1. Ask for two space-separated values
+    user_input = input("Enter two numbers: ").split()
+
+    # 2. Try to convert inputs to integers
+    a = int(user_input[0])
+    b = int(user_input[1])
+
+    # 3. Perform division
+    result = a / b
+    print(result)
+except ZeroDivisionError:
+    # Handles 10 / 0
+    print("Error: Division by zero")
+except ValueError:
+    # Handles inputs like '10 abc'
+    print("Error: Invalid input")
+except IndexError:
+    # Handles cases where only one number is typed
+    print("Error: Please enter two values")
