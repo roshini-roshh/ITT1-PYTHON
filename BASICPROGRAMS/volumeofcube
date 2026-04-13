@@ -1,0 +1,4 @@
+l=int(input("Enter Length:"))
+v=l*l*l
+if(l>=1 and l<=50):
+  print("Volume of cube:",v)
